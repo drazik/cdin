@@ -93,7 +93,7 @@ sections afin qu'elles se voient appliquer ce style :
 
 Ensuite, on peut voir que le contenu de ces sections a aussi un style générique :
 
-* Un titre avec un `font-size` de `48px` (sauf le header, pour lequel celui-ci est de `4rem`, mais ce cas spécifique sera géré à l'étape suivante) avec un `letter-spacing` de `-1px`, un `line-height` de `1.25`, un `font-weight` de `600` et la police « Source Serif Pro »
+* Un titre avec un `font-size` de `48px` (sauf le header, pour lequel celui-ci est de `64px`, mais ce cas spécifique sera géré à l'étape suivante) avec un `letter-spacing` de `-1px`, un `line-height` de `1.25`, un `font-weight` de `600` et la police « Source Serif Pro »
 * Un `line-height` de `1.5` pour le contenu textuel (autre que les titres)
 
 On peut donc écrire une classe `.section__title` regroupant les styles des
