@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700|Source+Serif+Pro:400,600,700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Source Serif Pro', serif;
+}
+
+.section {
+  padding: 64px 0;
+  line-height: 1.5;
+}
+
+.section__title {
+  font-size: 48px;
+  letter-spacing: -1px;
+  line-height: 1.25;
+  font-weight: 600;
+}
+
+.section--normal {
+  background-color: white;
+  color: black;
+}
+
+.section--alternate {
+  background-color: #fff7f3;
+}
+
+.section--header {
+  background-image: linear-gradient(to bottom, transparent 0%, transparent 65%, white 100%), radial-gradient(circle at bottom, #fbbe4f 0, #fe6969 100%);
+  color: white;
+}
+
+.section--header .section__title {
+  font-size: 64px;
+}
+
+.section--centered {
+  text-align: center;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.testimony {
+  text-align: center;
+}
+
+.testimony + .testimony {
+  margin-top: 48px;
+}
+
+.testimony__image {
+  margin-bottom: 16px;
+  border-radius: 100%;
+}
+
+.testimony__content {
+  background-color: #faf3ef;
+  padding: 30px 40px 10px;
+  margin-bottom: 24px;
+}
+
+.testimony__author {
+  font-weight: bold;
+}
