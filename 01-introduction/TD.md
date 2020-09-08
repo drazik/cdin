@@ -56,7 +56,7 @@ par défaut).
 
 En premier lieu, nous allons créer le code HTML du header de la page.
 
-IMAGE du header
+![](./header.png)
 
 Dans ce header, on trouve trois éléments :
 
@@ -72,7 +72,7 @@ contenu principal. Mais nous allons d'abord écrire le code du footer, de
 manière à avoir tous les éléments communs à toutes les pages. Nous nous
 occuperons des éléments spécifiques à chaque page par la suite.
 
-IMAGE du footer
+![](./footer.png)
 
 Le footer est composé de deux éléments :
 
@@ -85,7 +85,7 @@ Le contenu de la page d'accueil est une liste d'articles. Il y a en tout 9
 éléments. Je vous conseille de n'en écrire qu'un seul au début, que vous
 pourrez copier/coller lorsque celui-ci sera terminé.
 
-IMAGE d'un item
+![](./post-item.png)
 
 Chaque élément est un lien, dans lequel se trouve :
 
@@ -107,6 +107,8 @@ Créez un fichier `by-author.html`. Copiez-collez le code de la page
 
 Cette page est quasi similaire à la page d'accueil. La seule différence est
 l'ajout d'un header dans la zone de contenu principal.
+
+![](./by-author-header.png)
 
 Dans ce header, on trouve les informations sur l'auteur des articles :
 
@@ -138,6 +140,8 @@ Le contenu de l'article est composé de :
 * Paragraphes
 * Liens
 * Un bloc de citation à la toute fin de l'article (à vous de trouver quelle balise utiliser pour celui-ci !)
+
+![](./post-content.png)
 
 ## Conclusion
 
