@@ -5,7 +5,7 @@ lors de la séance précédente.
 
 Le but est d'écrire vos premières règles CSS afin de décrire le style des
 différents blocs qui composent la maquette de blog dont nous avons écrit la
-structure HTML lors du [TD précédent](../../01-introduction/TD).
+structure HTML lors du [TD précédent](../../01-introduction/correction.zip).
 
 Pour rappel, la maquette est visible sur Figma (il faut créer un compte) :
 https://www.figma.com/file/cEgyaw22dkpsr7RbDttNgA/Blog?node-id=0%3A1
