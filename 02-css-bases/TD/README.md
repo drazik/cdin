@@ -360,14 +360,14 @@ classe `wrapper`. Dans le CSS, créez maintenant une règle ciblant la classe `w
 * Une largeur maximale de `1120px`
 * Des marges horizontal (gauche et droite) automatiques
 
-Puis créez une nouvelle règle ciblant les éléments possédant la classe `wrapper` étant des descendants d'éléments possédant la classe `footer` et déplacez-y les déclarations
+Puis créez une nouvelle règle ciblant les éléments possédant la classe
+`wrapper` étant des descendants d'éléments possédant la classe `footer` et
+déplacez-y les déclarations suivantes :
 
 ```css
 display: flex;
 justify-content: space-between;
 ```
-
-dans cette nouvelle règle.
 
 Vous obtiendrez le résultat suivant :
 
@@ -375,4 +375,58 @@ Vous obtiendrez le résultat suivant :
 
 ## Etape 5 : styles du contenu principal
 
-TODO
+Venons-en maintenant au contenu principal de la page d'accueil.
+
+![Contenu principal](./main-content.png)
+
+Premièrement, on voit sur la maquette que le contenu de ce bloc est, de la même
+manière que le contenu du footer, contraint à une largeur de 1120px. Nous avons
+donc besoin de l'entourer d'un wrapper, comme nous l'avons fait dans le footer.
+
+Nous voyons ensuite que le contenu est organisé sous forme d'une grille où
+chaque ligne contient 3 blocs. Pour le moment, nous ne savons pas comment faire
+de grille. Oubliez donc ça pour le moment, et mettez à profit toutes les
+connaissances que vous avez maintenant acquis pour écrire les styles permettant
+d'obtenir l'affichage suivant :
+
+![Article](./post-styled.png)
+
+Dans le cours suivant, nous apprendrons à créer une mise en page sous forme de
+grille.
+
+## Etape 6 : page "By author"
+
+Cette page est la même que la page d'accueil, avec un bloc supplémentaire :
+
+![Page By author](./by-author.png)
+
+A vous d'utiliser tout ce que vous avez déjà utilisé dans les étapes
+précédentes pour écrire les classes et styles de ce bloc.
+
+## Etape 7 : page "article"
+
+Cette page reprend la mise en page avec les 3 blocs principaux (header, main,
+footer), mais le contenu principal est différent des deux autres pages.
+
+A nouveau, à vous de jouer, vous avez toutes les connaissances nécessaires pour
+intégrer ce contenu !
+
+## Conclusion
+
+Après avoir définit la structure du contenu de nos pages en HTML, nous avons
+définit le style des différents éléments grâce à CSS. Nous ne sommes pas encore
+capables de faire tout ce qui est demandé par la maquette, mais nous sommes
+quand même capables d'arriver à un premier résultat satisfaisant.
+
+Nous remarquons quand même un point gênant :
+
+Nous avons beaucoup de code dupliqué. Si on veut modifier le nom de la classe
+du header, ou y ajouter un élément, nous devons le faire sur nos 3 pages. Même
+au sein d'une même page (par exemple la page d'accueil), nous avons 9 fois le
+même élément, donc 9 fois la même structure. Si nous voulons modifier cette
+structure, il faudra le faire 9 fois. Nous aurions bien besoin de quelque chose
+nous permettant de définir la structure de chaque élément/bloc une seule fois,
+et l'importer autant de fois que souhaité.
+
+Nous règlerons ce problème dans un prochain cours en mettant en place un
+système de templates et de composants.
