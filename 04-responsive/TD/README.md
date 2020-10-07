@@ -10,7 +10,7 @@ first".
 Le TD se base sur le site du restaurant The Burger Shack que nous avons
 développé la semaine dernière.
 
-Vous pouvez récupérer les sources en [cliquant ici]() puis sur le bouton
+Vous pouvez récupérer les sources en [cliquant ici](./src.zip) puis sur le bouton
 "download". Comme d'habitude, dézippez les sources dans le dossier de votre
 choix, puis affichez les pages dans un navigateur afin de vous assurer que tout
 fonctionne correctement.
