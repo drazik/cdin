@@ -20,7 +20,7 @@ souvenez plus comment faire, reportez vous au sujet du TD 1. Dans ce terminal,
 entrez la commande suivante :
 
 ```console
-npm init
+npm init -y
 ```
 
 Cela aura pour effet de créer un nouveau fichier dans votre projet :
