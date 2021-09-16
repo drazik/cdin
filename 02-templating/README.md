@@ -32,7 +32,7 @@ Cela aura pour effet de créer un nouveau fichier dans votre projet :
 Commençons par installer Parcel. Pour cela, entrez dans le terminal : 
 
 ```console
-npm install --save-dev parcel
+npm install --save-dev parcel-bundler
 ``` 
 
 Une nouvelle ligne apparaît sous la section `devDependencies` du fichier
@@ -46,7 +46,7 @@ de code Pug mais simplement demander à Parcel de servir nos fichiers HTML.
 
 ```json
 "scripts": {
-  "serve": "parcel serve index.html"
+  "serve": "parcel index.html"
 }
 ```
 
@@ -79,7 +79,11 @@ Puis modifiez le script `serve` dans le fichier `package.json` pour indiquer que
 }
 ```
 
-Arrêtez le serveur de développement en cours d'exécution (CTRL+C), puis relancez en un. Vous devriez avoir une erreur comme celle-ci :
+Arrêtez le serveur de développement en cours d'exécution (CTRL+C), puis
+relancez en un. Parcel détecte automatiquement que nous utilisons des fichiers
+Pug et installe donc les dépendances nécessaires pour nous. Une fois
+l'installation des dépendances terminéee, vous devriez avoir une erreur comme
+celle-ci :
 
 ```console
 Server running at http://localhost:1234
