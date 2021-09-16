@@ -75,7 +75,7 @@ Puis modifiez le script `serve` dans le fichier `package.json` pour indiquer que
 
 ```json
 "scripts": {
-  "serve": "parcel serve index.pug"
+  "serve": "parcel index.pug"
 }
 ```
 
