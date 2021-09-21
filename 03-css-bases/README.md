@@ -10,7 +10,6 @@ premières bases de style sur le site Cristie Cookie :
 
 * import des polices d'écriture
 * définition des couleurs via des variables CSS
-* implémentation de styles globaux
 * implémentation de quelques classes :
   * zone utile (wrapper)
   * section (avec variantes de couleur)
@@ -36,7 +35,15 @@ qui liste tous les styles de texte utilisés dans la maquette.
 
 Une fois cette liste faite, allez sélectionner toutes les polices et leurs
 variantes nécessaires dans Google Fonts, puis copiez-collez le code fournit par
-Google Fonts dans votre fichier `base.pug` et votre fichier CSS.
+Google Fonts dans votre fichier `base.pug`. Vous pouvez utiliser
+https://html-to-pug.com/ pour convertir automatiquement le code HTML donné par
+Google Fonts en Pug.
+
+Pour la partie CSS, nous allons devoir spécifier plusieurs choses. D'abord,
+faites en sorte que la police de tout le contenu de la page soit "Be Vietnam",
+en appliquant cette police aux éléments de type `body`. Puis faites en sorte
+que tous les titres utilisent la police "Dosis" en l'appliquant à tous les
+éléments `h1`, `h2`, `h3`, `h4`, `h5` et `h6`.
 
 ## Définition des couleurs via des variables CSS
 
@@ -48,8 +55,6 @@ l'utilisation des couleurs et de faciliter le changement d'une couleur.
 
 Grâce aux indications données par le document Figma, stockez les couleurs
 utilisées par la maquette dans des variables CSS.
-
-## Implémentation des styles globaux
 
 ## Implémentation des premières classes
 
